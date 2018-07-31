@@ -5,17 +5,17 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  arr.unshift(element)
-  return arr
+  array.unshift(element)
+  return array
 }
 
 
 function addElementToEndOfArray(array, element) {
-  var newArr = [...arr, element]
+  var newArr = [...array, element]
   return newArr
 }
 
-function destructivelyAddElementToEndOfArray() {
-  arr.push(element)
-  return arr
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
 }
